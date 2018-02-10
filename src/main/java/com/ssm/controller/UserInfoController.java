@@ -22,6 +22,7 @@ public class UserInfoController {
                                       HttpServletResponse response) throws Exception {
 
         String uname=request.getParameter("name");
+
         Integer uage=Integer.valueOf(request.getParameter("age"));
 
         UserInfo info=new UserInfo();
