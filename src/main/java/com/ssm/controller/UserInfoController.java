@@ -24,7 +24,7 @@ public class UserInfoController {
         String uname=request.getParameter("name");
 
         Integer uage=Integer.valueOf(request.getParameter("age"));
-
+        System.out.print(2211);
         UserInfo info=new UserInfo();
         info.setAge(uage);
         info.setName(uname);
